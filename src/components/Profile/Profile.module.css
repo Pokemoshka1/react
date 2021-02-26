@@ -1,0 +1,46 @@
+.Content {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 100px 250px 50px ;
+  background-color: azure;
+}
+.contents {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin: 15px;
+}
+.avatar {
+  grid-column-start: 2;
+  text-align: center;
+}
+.avatar img {
+  height: 300px;
+  border-radius: 100px; /* Радиус скругления */
+}
+.link {
+  padding: 15px;
+  background-color: firebrick;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.links {
+  color: white; 
+  border: 2px solid rosybrown;
+  text-align: center;
+}
+.achievements1 {
+  margin-left: 100px;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.achievements2 {
+  margin-right: 100px;
+  grid-column-start: 3;
+  grid-row-start: 2;
+}

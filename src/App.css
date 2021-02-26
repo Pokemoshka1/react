@@ -1,0 +1,10 @@
+.App {
+  display: grid;
+  grid-template-rows: 0fr 30px 10fr;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-gap: 1px;
+}
+a {
+  text-decoration: none;
+}

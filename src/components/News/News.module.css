@@ -1,0 +1,12 @@
+.content {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+.textarea {
+  margin-top: 10px;
+  width: 100%;
+  resize: none;
+}

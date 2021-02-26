@@ -1,0 +1,11 @@
+.new {
+  background: gainsboro;
+  border: 2px solid darkblue;
+  margin-top: 10px;
+}
+.new img {
+  height: 50px;
+  border-radius: 50%;
+}
+.name {
+}

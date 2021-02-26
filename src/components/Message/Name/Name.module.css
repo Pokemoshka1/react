@@ -1,0 +1,9 @@
+.content {
+  background-color: gainsboro;
+  margin-top: 10px;
+  text-align: center;
+}
+.link {
+  padding-left: 120px;
+  padding-right: 120px;
+}
